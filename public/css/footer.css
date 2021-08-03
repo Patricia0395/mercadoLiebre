@@ -1,0 +1,27 @@
+.footer{
+    text-align: center;
+  
+}
+.footer section article a.iconos-footer{
+    color: var(--colorCeleste);
+    font-size: 2em;
+   
+    
+}
+
+.footer section article h5{
+    color: var(--colorGrisClaro);
+    margin-top: 10px;
+    font-size: 16px;
+}
+.footer section article p{
+    font-size: 12px;
+    color: var(--colorGrisClaro);
+    margin: 0px 30px 60px;
+    
+}
+.footer section p.info-mercadoliebre{
+    text-align: left;
+    font-size: 12px;
+    color: var(--colorGrisClaro);
+}

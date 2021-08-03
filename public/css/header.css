@@ -1,0 +1,54 @@
+header{
+    background-color: var(--colorAmarillo);
+}
+.logo{
+    width: 150px;
+    height: auto;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.barraBusqueda{
+  font-size: 12px;
+  margin: 12px 0 3px 20px;
+}
+
+.lupa{
+    background-color: #fff;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: black;
+    
+}
+
+
+.mano{
+    padding-left: 40px;
+    color: black;
+    padding-top: 30px;
+  
+}
+
+div p{
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 12px;
+    padding-right: 3px;
+}
+
+
+div.burger-menu{
+  width: 40px;
+    padding: 5px;
+    background-color: var(--colorCeleste);
+    color: #ebebeb;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+}
