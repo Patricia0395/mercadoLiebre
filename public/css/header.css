@@ -1,5 +1,6 @@
 header{
     background-color: var(--colorAmarillo);
+    width: 90%;
 }
 .logo{
     width: 150px;
@@ -7,14 +8,18 @@ header{
     padding-top: 25px;
     padding-left: 30px;
 }
+
+
 .barraBusqueda{
+    width: 150px;
   font-size: 12px;
   margin: 12px 0 3px 20px;
+  
 }
 
 .lupa{
     background-color: #fff;
-    margin-left: 20px;
+    margin-left: 1px;
     border: 1px solid black;
     border-radius: 2px;
     color: black;
@@ -31,7 +36,7 @@ header{
 
 div p{
     display: inline-block;
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 20px;
 }
 
@@ -39,16 +44,44 @@ nav ul li a{
     color: black;
     font-size: 12px;
     padding-right: 3px;
+    display: none;
 }
 
-
 div.burger-menu{
+    text-align: center;
+     
+}
+
+div.burger-menu a i{
   width: 40px;
-    padding: 5px;
+    padding: 10px;
     background-color: var(--colorCeleste);
     color: #ebebeb;
     font-size: 20px;
     text-align: center;
     margin: 20px auto;
     border-radius: 5px;
+   
+}
+
+@media (min-width: 361px) {
+    header nav ul li a{
+        display: inline-block;  
+    }
+    header nav ul li a.mis-compras{
+        padding-bottom: 15px; 
+    }
+
+    header .mano{
+        padding-left: 90px;
+    }
+    header div.burger-menu{
+        display: none;  
+    }
+}
+
+@media (min-width: 761px) {
+    header .mano{
+        padding-left: 250px;
+    } 
 }

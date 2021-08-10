@@ -1,0 +1,94 @@
+.home main {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--colorGrisClaro);  
+    
+}
+
+.home main div h2{
+    font-size: 24px;
+    color: var(--colorGrisOscuro);
+    
+}
+
+.home main section{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.home main section article.articulos{
+    width: 270px;
+    margin: 10px 10px;
+    background-color: #ffff;
+}
+
+.home main section article div.descripcion{
+    border-top: 1px solid var(--colorGrisClaro);
+    margin: 15px;
+ 
+}
+.home main section article div.descripcion p{
+   font-size: 18px;
+   display: block;
+   line-height: 15px;
+}
+.home main section article div.descripcion p.descuento{
+    font-size: 16px;
+    color: var(--colorVerde);
+    line-height: 0%;
+ }
+
+ .home main section article div.descripcion h3{
+    font-size: 16px;
+    font-weight: 400;
+    display: none;
+ }
+
+.home main .icono-envio{
+    width: 43px;
+    height: 43px;
+    color: var(--colorVerde);
+    border: 1px solid var(--colorVerde);
+    padding: 6px 6px;
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width: 361px) {
+    .home main section article.articulos{
+        box-shadow:0px 0px 10px rgb(100, 100, 100);
+    }
+    .home main section article.articulos{
+        width: 350px;
+        margin: 10px 15px;
+        
+    }
+    .home main section article img{
+       margin-left: 50px;
+    }
+    .home main section article div.descripcion h3{
+        display: inline-block;
+     }
+}
+
+@media (min-width: 769px) {
+    .home main div h2{
+        text-align: center;
+        margin: 5px;
+    }
+    .home main section article.articulos{
+        width: 650px;
+        height: 600px;
+        margin: 10px 25px;
+        
+    }
+    .home main section article img{
+        width: 450px;
+        height: 450px;
+        margin-left: 80px;
+     }
+}

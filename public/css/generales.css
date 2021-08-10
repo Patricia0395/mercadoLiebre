@@ -4,9 +4,10 @@
     --colorAmarillo : #EAC926;
     --colorAzul: #03264C;
     --colorCeleste: #1259c3;
-    --colorGrisClaro: #666;
+    --colorGrisClaro: #ebebeb;
     --colorVerde: #39b54a;
     --colorGrisOscuro: #666;
+    -
 }
 
 /*font-family: 'Roboto', sans-serif;*/
@@ -22,4 +23,8 @@ li{
 }
 a{
     text-decoration: none; /*sacarle el subrayado*/
+}
+
+main{ 
+   
 }
