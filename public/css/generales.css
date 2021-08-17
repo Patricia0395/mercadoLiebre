@@ -16,6 +16,7 @@ font-family: 'Roboto';
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+
 }
 
 li{ 
@@ -23,8 +24,9 @@ li{
 }
 a{
     text-decoration: none; /*sacarle el subrayado*/
+    color: black;
 }
 
-main{ 
-   
+body{ 
+    background-color: var(--colorGrisClaro); 
 }

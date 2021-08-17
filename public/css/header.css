@@ -1,21 +1,33 @@
 header{
     background-color: var(--colorAmarillo);
-    width: 90%;
+    width: 100%;
+   
 }
-.logo{
-    width: 150px;
-    height: auto;
-    padding-top: 25px;
-    padding-left: 30px;
+header .box-logo{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+padding-top: 20px;
+
+}
+
+header .box-logo .logo{
+    width: 48%;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 
-.barraBusqueda{
-    width: 150px;
-  font-size: 12px;
-  margin: 12px 0 3px 20px;
-  
+header .box-logo .box-busqueda{
+    width: 48%
 }
+
+header .box-logo .box-busqueda input{
+    width: 80%;
+}
+
+
 
 .lupa{
     background-color: #fff;
@@ -26,25 +38,23 @@ header{
     
 }
 
-
-.mano{
-    padding-left: 40px;
-    color: black;
-    padding-top: 30px;
+.home header p.compra-cuotas{
+width: 100%;
+text-align: center;
+margin: 20px 0;
   
 }
 
 div p{
     display: inline-block;
-    font-size: 10px;
-    margin-bottom: 20px;
+    font-size: 12px;
 }
-
+header nav{
+    display: none;
+}
 nav ul li a{
-    color: black;
     font-size: 12px;
     padding-right: 3px;
-    display: none;
 }
 
 div.burger-menu{
@@ -64,15 +74,30 @@ div.burger-menu a i{
    
 }
 
-@media (min-width: 361px) {
+@media (min-width: 768px) {
     header{
         width: 100%;
     }
-    header nav ul li a{
-        display: inline-block;  
+    header .box-logo .logo{
+        width: 33%;
+        
     }
-    header nav ul li a.mis-compras{
-        padding-bottom: 15px; 
+    header .box-logo div.box-busqueda{
+        width: 33%;
+    }
+  
+    .home header p.compra-cuotas{
+        width: 33%;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    header nav ul{
+        display: flex;  
+    }
+    header nav ul li{
+        margin: 0 6px;
     }
 
     header .mano{
@@ -83,8 +108,7 @@ div.burger-menu a i{
     }
 }
 
-@media (min-width: 761px) {
-    header .mano{
-        padding-left: 250px;
-    } 
+@media (min-width: 1024px) {
+
+
 }

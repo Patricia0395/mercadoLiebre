@@ -1,5 +1,7 @@
 .footer{
     text-align: center;
+    background-color: #fff;
+    margin: 10px;
 }
 .footer section article a.iconos-footer{
     color: var(--colorCeleste);
