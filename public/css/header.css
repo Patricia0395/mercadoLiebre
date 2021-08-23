@@ -20,21 +20,28 @@ header .box-logo .logo{
 
 
 header .box-logo .box-busqueda{
-    width: 48%
+    width: 48%;
+  
+   
 }
-
+header .box-logo .box-busqueda form{
+    width: 100%;
+    display: flex;
+}
 header .box-logo .box-busqueda input{
-    width: 80%;
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+  flex-grow: 1;
+ 
 }
 
-
-
-.lupa{
+header .box-logo .box-busqueda  .lupa{
     background-color: #fff;
-    margin-left: 1px;
-    border: 1px solid black;
-    border-radius: 2px;
-    color: black;
+    color: #666;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 5px;
+   display: flex;
+   align-items: center;
     
 }
 
