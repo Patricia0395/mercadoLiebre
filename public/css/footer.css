@@ -3,24 +3,49 @@
     background-color: #fff;
     margin: 10px;
 }
-.footer section article a.iconos-footer{
-    color: var(--colorCeleste);
-    font-size: 2em;
+
+.footer .content-footer section{
+    margin-top: 40px;
 }
 
-.footer section article h5{
+.footer .content-footer section a.iconos-footer{
+    color: var(--colorCeleste);
+    font-size: 2em;
+  transition: color ease .4s;  
+}
+
+.footer .content-footer section a.iconos-footer:hover{
+    color: var(--colorAzul);
+}
+
+.footer .content-footer section h5{
     color: var(--colorGrisOscuro);
     margin-top: 10px;
     font-size: 16px;
 }
-.footer section article p{
+.footer.content-footer section p{
     font-size: 12px;
     color: var(--colorGrisOscuro);
     margin: 0px 30px 60px;
     
 }
-.footer section p.info-mercadoliebre{
+.footer .content-footer p.info-mercadoliebre{
     text-align: left;
     font-size: 12px;
     color: var(--colorGrisOscuro);
+}
+
+@media (min-width:1024px) {
+    .footer .content-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+    .footer .content-footer section{
+        width: 33%;
+        padding: 0 25px;
+        margin-bottom: 20px;
+    }
+
 }

@@ -45,6 +45,11 @@ input, button{
 background-color: red;
     }
 
-    .btn-verde{
-        background-color: var(--colorVerde);
+    .btn-celeste{
+        background-color: var(--colorCeleste);
+        transition: background-color linear .3s ;
+    }
+
+    .btn-celeste:hover{
+        background-color: #0022AA;
     }

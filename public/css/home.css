@@ -21,6 +21,13 @@
 .home main section article.articulos{
     margin: 10px 0;
     background-color: #ffff;
+    transition: all ease .3s;
+}
+
+.home main section article.articulos:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+
 }
 
 .home main section article div.descripcion{
@@ -48,7 +55,13 @@
  .home main section article div.descripcion h3{
     font-size: 16px;
     font-weight: 400;
-    display: none;
+    height: 0;
+    transition: all ease .3s;
+    overflow: hidden; 
+ }
+ .home main section article:hover div.descripcion h3{
+     height: 20px;
+     margin-top: 10px;
  }
 
 .home main section article .icono-envio i{
@@ -64,15 +77,19 @@
     position: absolute;
     right: 20px;
     top: -18px;
+    transition: all ease .3s;
 }
 
+.home main section article:hover .icono-envio i{
+    box-shadow: 0 0 5px var(--colorVerde);
+    transform: rotate(360deg);
+}
 
 /*Tablet*/
 
 @media (min-width: 768px) {
 .home main section article.articulos{
          width: 40%;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     .home main section article div.descripcion h3{
